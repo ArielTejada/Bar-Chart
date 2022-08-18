@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+svg{
+    border: 2px solid gray;
+    margin: 5vh auto;
+}
+
+#title {
+    font-size: 3vw;
+}
+
+#tooltip{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.bar{ 
+    fill: lightskyblue;
+    border: lightskyblue;
+}
